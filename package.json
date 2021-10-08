@@ -19,7 +19,7 @@
       "fileSuffix": ".cucumber"
     }
   },
-  "author": "",
+  "author": "AVerma",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^8.5.0",
