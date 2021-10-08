@@ -1,0 +1,68 @@
+[
+  {
+    "description": "    Test application adding to basket",
+    "keyword": "Feature",
+    "name": "End to End Ecommerce Validation",
+    "line": 1,
+    "id": "end-to-end-ecommerce-validation",
+    "tags": [],
+    "uri": "ecommerce.feature",
+    "elements": [
+      {
+        "id": "end-to-end-ecommerce-validation;ecommerce-produce-delivery",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Ecommerce Produce Delivery",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open ECommerce page",
+            "result": {
+              "status": "passed",
+              "duration": 3823000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I add items to Cart",
+            "result": {
+              "status": "passed",
+              "duration": 6277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Validate the total prices",
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Select the country, submit and verify confirmation message",
+            "result": {
+              "status": "passed",
+              "duration": 5562000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "defaultCommandTimeout": 8000,
+  "reporter": "mochawesome",
+  "env": {
+    "url": "https://rahulshettyacademy.com/seleniumPractise/#/"
+  },
+  "projectId": "koon1g",
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  }
+}
